@@ -27,7 +27,6 @@
             (int)$_POST['carga']
         );
 
-
         echo "<h3>Resultado:</h3>";
         echo $func->exibirDetalhes((float)$_POST['bonus'], (int)$_POST['extras']);
     }
