@@ -1,6 +1,5 @@
 <?php
-class Aluno
-{
+class Aluno{
     private string $nome;
     private string $disciplina;
     private float $n1;
@@ -21,7 +20,7 @@ class Aluno
     public function getResumo()
     {
         return "Nome do aluno: {$this->nome}
-        \<br>
+        <br>
          Disciplina: {$this->disciplina}";
     }
 
