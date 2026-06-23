@@ -34,16 +34,23 @@ input[type="text"],
     border-radius: 4px;
 }
 
+select{
+    margin: 15px;
+}
+
 .container-dados{
     font-size: 15pt;
     margin: 10px;
 }
 
 .btn{
-    display: block;
     padding: 15px;
     background-color: rgb(108, 108, 219);
     color: white;
+    margin: 20px auto; 
+    display: block;      
+    width: 150px;        
+    text-align: center;
 }
 li{
     list-style: none;
